@@ -1,3 +1,28 @@
 *{
     font-family: sans-serif;
 }
+
+#graph{
+
+    display: flex;
+    justify-content: center;
+    border: 1px black;
+}
+#bougie-container {
+    position: relative;
+    height: 300px; /* conteneur de référence */
+    margin: 30px;
+  }
+
+  .meche {
+    position: absolute;
+    width: 2px;
+    background: black;
+    left: 9px; /* centrée si corps = 20px */
+  }
+
+  .corps {
+    position: absolute;
+    width: 20px;
+    left: 0;
+  }
