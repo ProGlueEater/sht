@@ -6,6 +6,7 @@
 
     display: flex;
     justify-content: center;
+    grid-template-columns: auto;
     border: 1px black;
 }
 #bougie-container {

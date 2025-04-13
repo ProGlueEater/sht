@@ -39,5 +39,5 @@ async function afficherBougies() {
       graphe.appendChild(clone);
     }
   }
-  
+  console.log(data)
   afficherBougies();
