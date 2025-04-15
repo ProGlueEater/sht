@@ -1,7 +1,10 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+display: flex;
 
+}
 #graphe{
 
   display: flex;
