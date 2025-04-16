@@ -1,8 +1,11 @@
 *{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+header{
+display: flex;
 
-#graph{
+}
+#graphe{
 
     display: grid;
     grid-template-columns: auto auto auto;

@@ -40,5 +40,6 @@ async function afficherBougies() {
     }
   }
  
+ 
   afficherBougies();
   //console.log(data);
