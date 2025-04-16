@@ -4,10 +4,9 @@
 
 #graph{
 
-    display: flex;
-    justify-content: center;
-    grid-template-columns: auto;
-    border: 1px black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 10px black;
 }
 #bougie-container {
     position: relative;
@@ -16,14 +15,14 @@
   }
 
   .meche {
-    position: absolute;
+
     width: 2px;
     background: black;
     left: 9px; /* centrée si corps = 20px */
   }
 
   .corps {
-    position: absolute;
+
     width: 20px;
     left: 0;
   }
